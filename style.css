@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0
+
+}
+header #Imagen{
+    color: white;
+    margin: auto;
+    padding: auto;
+    font-size: 500%;
+    position: absolute;
+    height: auto;
+    top: 15px;
+    right: 15px;
+}
+header{
+    background-color: #0A5CB8;
+
+}
+header h3{
+    color: aliceblue;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 300;
+    padding: 5px;
+    padding-bottom: 0px;
+    margin: 10px;
+    margin-top: 0%;
+}
+header div{
+    color: aliceblue;
+    padding-left: 30px;
+    padding-bottom: 5px;
+}
+header div p{
+    padding: 2px;
+}
+    
+
+header div a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 1PX;
+    
+}
+hr{
+    border: none;
+    border-top: 2px solid #0A5CB8; /* Línea de 2px de color azul */
+    margin: 1px 0; /* Espaciado alrededor de la línea */
+
+    
+}
+
+nav ul{
+    padding: 15px;
+    background-color: #0A5CB8;
+    list-style: none;
+    padding-right: 2px;
+    text-align: end;
+    margin-bottom: 2px;
+}
+nav li a{
+    padding: 15px;
+    margin: 0;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    
+
+    
+}
+
+nav li a:hover{
+    background-color: cornflowerblue;
+    padding: 15px;
+    margin: 0;
+    transition: color 0.2s ease, background-color 0.3s ease;
+}
+#AM{
+    padding: 7px;
+    margin: 2px;
+    border: 2px;
+    margin: auto;
+    padding-right: 0%;
+}
+#AM h2{
+    text-align: justify;
+    padding-left: 1px;
+    margin-left:100px;
+}
+#AM aside{
+    text-align: justify;
+    padding-left: 1px;
+    margin-left:100px;
+    margin-right: 15px;
+    margin-top: 15px;
+
+    
+    
+
+}
+#AM i{
+    font-size: 100px;
+    position: absolute;
+    padding: 4px;
+    margin: auto;
+    top: 186px;
+    height: auto; 
+    border: 1px solid #cec9c9; 
+    border-radius: 15px; /*Redondear Border*/
+    overflow: hidden; /*Ocultar Excenden de Imagen*/
+    box-shadow: 2px 1px 15px rgba(0, 0, 0, 0.1); 
+}
