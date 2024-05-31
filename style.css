@@ -3,6 +3,7 @@
     margin: 0
 
 }
+
 header #Imagen{
     color: white;
     margin: auto;
@@ -90,6 +91,7 @@ nav li a:hover{
     text-align: justify;
     padding-left: 1px;
     margin-left:100px;
+    color: #0A5CB8;
 }
 #AM aside{
     text-align: justify;
@@ -113,4 +115,261 @@ nav li a:hover{
     border-radius: 15px; /*Redondear Border*/
     overflow: hidden; /*Ocultar Excenden de Imagen*/
     box-shadow: 2px 1px 15px rgba(0, 0, 0, 0.1); 
+}
+#skills{
+    margin-left: 15px;
+    margin-top: 15px;
+
+}
+#skills h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: initial;
+    margin-left: 2.5%;
+    color: #0A5CB8;
+}
+#skills ul li{
+    list-style: none;
+    
+}
+#skills ul #HTML{
+    position: absolute;
+    right: 900px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 6px black;
+    padding: 18px;
+    top: 345px;
+    transition: background-color 0.1s ease;
+    height: auto;
+}
+#skills ul #CSS{
+    position: absolute;
+    margin-left: 20px;
+    padding: 25px;
+    top: 345px;
+    padding-bottom: 10px;
+    height: auto;
+    right: 700px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 6px black;
+}
+
+#skills ul #HTML img{
+    position: relative;
+    margin-left: 30px;
+
+}  
+#skills ul #CSS img{
+    position: relative;
+    margin-left: 35px;
+    right: 20PX;
+    top: -10PX;
+
+}  
+#skills ul #HTML:hover{
+    background-color: #cec9c9;
+    transition: background-color 0.2s ease;
+
+}
+#skills ul #CSS:hover{
+    background-color: #cec9c9;
+    transition: background-color 0.2s ease;
+
+}
+#h3{
+    margin-top: 220px;
+}
+#skills ul #JS{
+    position: absolute;
+    margin-left: 20px;
+    padding: 25px;
+    top: 345px;
+    padding-bottom: 60px;
+    height: auto;
+    right: 466px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 6px black;
+}
+#skills ul #JS p{
+    position: relative;
+    bottom: -50px;
+}
+#skills ul #JS img{
+    position: relative;
+    right: -34px;
+    top: 15px;
+}
+#skills ul #JS:hover{
+    background-color: #cec9c9;
+    transition: background-color 0.2s ease;
+
+}
+#projects{
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+#projects h2{
+    margin: 5px;
+    padding: 10px;
+    color: #0A5CB8;
+}
+#projects div ul{
+    list-style: none;
+}
+#projects div ul li div{
+    box-shadow: 1px 1px 6px black;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 15px;
+    width: 25%;
+    transition: 0.1s background-color ease;
+    
+}
+#projects div ul li div:hover{
+    box-shadow: 1px 1px 6px black;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 15px;
+    width: 25%;
+    background-color:#cec9c9;
+    transition: 0.1s background-color ease;
+    
+}
+#projects div ul li #p1 a{
+    text-decoration: none;
+    color: black;
+}
+
+#projects div ul li #p2{
+    position: absolute;
+    left: 33%;
+    top: 100.5%;
+    padding: 26px;
+    
+
+}
+#projects div ul li #p3{
+    position: absolute;
+    left: 66%;
+    top: 100.5%;
+    padding: 26px;
+    
+}
+
+
+
+
+#Recomendations{
+    margin-left: 30px;
+    padding: 10px;
+    margin-bottom: -60px;
+}
+#Recomendations h2{
+    color: #0A5CB8;
+}
+#Recomendations #r1{
+    box-shadow: 1px 1px 6px black;
+    margin-top: 2%;
+    margin-inline-end: 57%;
+    padding: 10px;
+    text-align: justify;
+    border-radius: 15px;
+}
+#Recomendations #r2{
+    position: relative;
+    left: 50%;
+    top: -100px;
+    box-shadow: 1px 1px 6px black;
+    margin-top: 2%;
+    margin-inline-end: 53%;
+    padding: 10px;
+    text-align: justify;
+    border-radius: 15px;
+}
+#Recomendations #r3{
+    position: relative;
+    left: 25%;
+    top: -100px;
+    box-shadow: 1px 1px 6px black;
+    margin-top: 2%;
+    margin-inline-end: 54%;
+    padding: 10px;
+    text-align: justify;
+    border-radius: 15px;
+}
+
+#Recomendations #formulario textarea{
+    position: relative;
+    margin-left: 30%;
+    padding: 3%;
+    text-align: justify;
+    border-radius: 15px;
+    border: solid 1px gray;
+    height: 150px;
+    width: 350px;
+    overflow-y: auto;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    resize: none;
+    margin-bottom: 1%;
+}
+#Recomendations #formulario h4{
+    position: relative;
+    margin-left: 40%;
+    padding: 10px;
+}
+#Recomendations #formulario button{
+    position: relative;
+    margin-left: 45%;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: aliceblue;
+    box-shadow: 1px black;
+    background-color: #0A5CB8;
+    color: white;
+    transition: color 0.2s ease, background-color 0.3s ease;
+
+    
+}
+#Recomendations #formulario button:hover{
+    position: relative;
+    margin-left: 45%;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: aliceblue;
+    box-shadow: 1px black;
+    background-color: cornflowerblue;
+    color: aliceblue;
+    transition: color 0.2s ease, background-color 0.3s ease;
+}
+
+#Casa{
+    margin-left: 90%;
+    background-color: #0A5CB8;  
+    position: relative;
+    top: 10px;
+    padding: 12px;
+    color: aliceblue;
+    border-radius: 15px;
+    transition: color 0.2s ease, background-color 0.3s ease;
+}
+#Casa:hover{
+    margin-left: 90%;
+    background-color: cornflowerblue;  
+    position: relative;
+    top: 10px;
+    padding: 12px;
+    color: aliceblue;
+    border-radius: 15px;
+    transition: color 0.2s ease, background-color 0.3s ease;
+
+}
+.comentario {
+    box-shadow: 1px 1px 6px black;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 15px;
+    width: 50%;
+    background-color: #f0f0f0; /* Color de fondo del comentario */
+    color: #333; /* Color del texto del comentario */
+    text-align: justify;
 }

@@ -6,8 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
     </head>
     <body>
+        <script src="script.js"></script>
         <header>
             <h3>Christian Acosta L.</h3>
             <i id="Imagen" class="fa-solid fa-code"></i>
@@ -21,7 +23,7 @@
         <nav>
                 <ul id="navegador">
                     <li>
-                        <a href="#AM">About M</a>
+                        <a href="#AM">About Me</a>
                         <a href="#skills">Skills</a>
                         <a href="#projects">Projects</a>
                         <a href="#Recomendations">Recomendations</a>
@@ -37,29 +39,72 @@
         <br>
         <hr id="h2">
         <section id="skills">
-            <u>
+            <h2>Skills</h2>
+            <ul>
                 <li>
-                    <div>
-                        <img src="HTML5_Badge.svg" alt="CSS" width="100"  height="150">
-                        <p>4 Horas</p>
+                    <div id="HTML">
+                        <img src="HTML5_Badge.svg" alt="HTML" width="100"  height="150">
+                        <figcaption></figcaption>
+                        <p>Nivel Basico de HTML</p>
                     </div>
-                    <div>
+                    <div id="CSS">
                         <img src="CSS3_logo.svg" alt="CSS" width="100"  height="150">
-                        <p>4 horas</p>
+                        <p>Nivel Basico de CSS</p>
+                    </div>
+                    <div id="JS">
+                        <img src="javascript-1.svg" alt="JS" width="100"    height="100">
+                        <p>Nivel Basico de javascript</p>
+                        
                     </div>
                 </li>
-            </u>
-
+            </ul>
         </section>
+        <hr id="h3">
         <section id="projects">
             <h2>Proyectos</h2>
             <div>
-                <p>Inversiones Sagrav Ingenieria</p>
+                <ul>
+                    <li>
+                        <div id="p1">
+                            <a href="https://github.com/codeamadeus/Portafolio.git" target="_blank">
+                            <h3>Proyecto Final de Introduccion a HTML,CSS Y JS</h3>
+                            <p>Evaluacion Final y Primer Portafolio</p></div></a>
+                        
+                        <div id="p2">
+                            <h3>Proyecto Front-END</h3>
+                            <p>Evaluacion Final</p>
+                        </div>
+                        <div id="p3">
+                            <h3>Proyecto BACK-END</h3>
+                            <p>Evaluacion Final </p>
+                        </div>
+                        
+                    </li>
+                </ul>
+                
             </div>
-            <div>
-                <p>Endoservice SA</p>
-            </div>
-
         </section>
+        <hr id="H4">
+        <section id="Recomendations">
+            <h2>Recomendations</h2>
+            <div id="comentario"></div>
+            <div id="r1">
+                <p>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum sint tenetur id, fugiat accusamus voluptates fuga! Ipsum consectetur laborum nam minima voluptatum mollitia eligendi. Excepturi aperiam nemo culpa nisi animi?"</p>
+            </div>
+            <div id="r2">
+                <p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum consequuntur quasi, rem illo sint voluptatibus corporis natus doloribus velit fugiat expedita voluptates voluptas accusamus, suscipit corrupti dignissimos architecto facilis iste?"</p>
+            </div>
+            <div id="r3">
+                <p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum consequuntur quasi, rem illo sint voluptatibus corporis natus doloribus velit fugiat expedita voluptates voluptas accusamus, suscipit corrupti dignissimos architecto facilis iste?"</p>
+            </div>
+            <form id="formulario" onsubmit="return comen()">
+                <h4>Deja tus Recomendaciones</h4>
+                <textarea placeholder="Escribe Aqui" id="com"></textarea>
+                <button type="submit" value="submit" id="Submit">Submit</button>
+            </form>
+            
+        </section>
+        <br>
+        <a id="Casa" href="#"><i class="fa-solid fa-house"></i></a>
     </body>
 </html>
